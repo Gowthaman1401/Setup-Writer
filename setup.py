@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 setuptools.setup(
     name='setup_writer',
     packages=setuptools.find_packages(),
-    version='1.2.1',
+    version='1.0.0',
     license='Apache License, Version 2.0',
     description='To Help In Writing setup.py File And Upload Package To Pip',
     author='Gowthaman',
