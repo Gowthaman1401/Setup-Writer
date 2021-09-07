@@ -8,7 +8,7 @@ init(convert=True)
 
 def get_argument():
     parser = argparse.ArgumentParser(usage="pip-setup [options]", epilog='Press ENTER For default input')
-    parser.add_argument('-v', '--version', action='version', help='show version number and exit', version="1.2.1")
+    parser.add_argument('-v', '--version', action='version', help='show version number and exit', version="1.0.0")
     group = parser.add_argument_group("to show help")
     group.add_argument("--print-default", default=False, action='store_true', help='show default values and exit')
     group.add_argument("--classifier", default=False, metavar='', help='show the available in classifier category')
@@ -22,7 +22,7 @@ def get_argument():
 
 def get_upload_argument():
     parser = argparse.ArgumentParser(usage="pip-upload [options]", )
-    parser.add_argument('-v', '--version', action='version', help='show version number and exit', version="1.2.1")
+    parser.add_argument('-v', '--version', action='version', help='show version number and exit', version="1.0.0")
     group = parser.add_argument_group("to help in uploading your package")
     group.add_argument("-u", "--upload-to", default='test pip', metavar='',
                        help='either real pip or test pip (default: %(default)s)')
