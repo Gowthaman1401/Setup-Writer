@@ -7,8 +7,8 @@ setuptools.setup(
     name='setup_writer',
     packages=setuptools.find_packages(),
     version='1.2.1',
-    license='MIT',
-    description='To Help In Writing setup.py File And Upload Your Package To Pip',
+    license='Apache License, Version 2.0',
+    description='To Help In Writing setup.py File And Upload Package To Pip',
     author='Gowthaman',
     author_email='rgngowthaman1@gmail.com',
     url='https://github.com/Gowthaman1401/Setup-Writer',
@@ -17,9 +17,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     python_requires='>=3.6',
     classifiers=[
-        "License :: OSI Approved :: MIT License",
+        'License :: OSI Approved :: Apache Software License',
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
+        'Programming Language :: Python :: 3.6'
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
